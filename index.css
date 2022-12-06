@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.glob {
+    background-color: rgb(193, 190, 190);
+    padding: 20px;
+    display: grid;
+    grid-template-areas:
+        "one one one one"
+        "two three three four"
+        "five five six six"
+        "seven eight nine ten"
+    ;
+    gap: 20px;
+}
+
+.glob div {
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.ten {
+    grid-area: ten;
+}
